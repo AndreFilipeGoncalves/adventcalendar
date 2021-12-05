@@ -16,12 +16,12 @@
             <file-downloader
             v-if="content.cssFile"
             :type="FILE_TYPES.CSS"
-            :url="`/challenges/day${day.day}/css.7z`"/>
+            :url="`/challenges/day${day}/css.7z`"/>
             <!-- js file -->
             <file-downloader
             v-if="content.jsFile"
             :type="FILE_TYPES.JS"
-            :url="`/challenges/day${day.day}/js.7z`"/>
+            :url="`/challenges/day${day}/js.7z`"/>
         </div>
     </div>
 </template>
