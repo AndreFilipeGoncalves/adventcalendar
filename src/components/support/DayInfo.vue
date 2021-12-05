@@ -1,11 +1,14 @@
 <template>
     <div class="day-info-wrapper">
         <!-- Brief -->
-        <h1 class="heading">{{t('adventCalendar.brief')}}</h1>
+        <h1 class="heading">{{t('brief')}}</h1>
         <!-- What it should be able to do -->
-        <h3 class="info">{{t('adventCalendar.beAble')}}</h3>
+        <h3 class="info">{{t('beAble')}}</h3>
         <!-- Getting started -->
-        <h1 class="heading">{{t('adventCalendar.gettingStarted')}}</h1>
+        <h1 class="heading">{{t('gettingStarted')}}</h1>
+        <!-- Files -->
+        <h3 class="info">{{t('files')}}</h3>
+        <a rel="icon" href="/challenges/day1/css.7z" download>file </a>
     </div>
 </template>
 
@@ -17,6 +20,7 @@ const { t } = useI18n()
 const props = defineProps({
     day: [String, Number]
 })
+const url = process.env.LOCAL_URL
 </script>
 
 <style lang="scss">
