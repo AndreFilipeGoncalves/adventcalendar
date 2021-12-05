@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import DaySelector from '@/components/support/DaySelector'
+import DaySelector from '@/components/DaySelector'
 import { adventDaysSetup } from '@/assets/setups/adventDays'
 import { computed } from 'vue'
 

@@ -10,9 +10,16 @@ const routes = [
         component: AdventCalendar,
         children: [{
             path: ROUTES.DAY_DISPLAYER,
-            props: true,
+            props: route => ({
+                    ...route.params,
+                    content: JSON.parse(route.params.content)
+            }),
             name: 'DayDisplayer',
-            component: DayDisplayer
+            component: DayDisplayer,
+            beforeEnter: (to, from, next) => {
+                if (!to.params.content) next('/')
+                else next()
+            }
         }]
     }
 ]
