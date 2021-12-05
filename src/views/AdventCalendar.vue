@@ -11,8 +11,12 @@
 <script setup>
 import DaySelector from '@/components/DaySelector'
 import { adventDaysSetup } from '@/assets/setups/adventDays'
-import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import { computed, watch } from 'vue'
 
+const route = useRoute()
+
+/* return the advent days setup */
 const daysList = computed(() => {
     if (!adventDaysSetup) return
     return adventDaysSetup()
@@ -23,8 +27,10 @@ const daysList = computed(() => {
 <style lang="scss">
 .advent-calendar-wrapper {
     width:100%;
+    height:100%;
     display:flex;
     flex-direction:column;
+
     .title {
         display:block;
         font-size:48px;

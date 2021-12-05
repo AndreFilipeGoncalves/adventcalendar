@@ -31,11 +31,11 @@ const props = defineProps({
     flex-direction:row;
     align-items:flex-start;
     box-sizing:border-box;
-    padding:40px;
+    padding:10px 40px;
     flex-wrap:wrap;
     .day-selector {
-        width:75px;
-        height:75px;
+        width:60px;
+        height:60px;
         display:flex;
         flex-direction:row;
         align-items:center;

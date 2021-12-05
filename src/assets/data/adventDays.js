@@ -31,10 +31,24 @@ export const ADVENT_DAYS = [{
     cssFile: true,
     image: true,
     ready: true,
-    beforeImageText: "",
-    afterImageText: "",
-    beAbleText: "",
-    gettingStarted: "",
+    beforeImageText: "In this project, we’re creating an eCommerce component.",
+    afterImageText: "You can use as many (or as few) tools, libraries, and frameworks as you’d like. If you’re trying to learn something new, this would be a great way to push yourself.",
+    beAbleText: [
+        "View the plates on the left side of the screen and add them to your cart on the right side.",
+        "When there are no plates within your cart, you should see a message that says, “Your cart is empty.”",
+        "When a plate is added to your cart, the Subtotal and Totals will automatically update.",
+        "When products are in your cart, you should be able to increase and decrease the quantity.",
+        "A user should not be able to mark the quantity as a negative number.",
+        "If the quantity goes down to 0, the user will have the option to delete or remove the product for their cart entirely.",
+        "Tax is based on the state of Tennessee sales tax: 0.0975"
+    ],
+    gettingStarted: [
+        "To get started, download the files. This includes all the project assets you need to get started: a creative brief, a Figma file with the designs and images.",
+        "Take a look around. Look at the project’s Figma file. If you don’t have a Figma account, don’t worry, you can set one up for free.​",
+        "Open the project’s README.md file. It has additional information on how the project is structured.",
+        "Customize your project / file architecture to your liking.",
+        "Happy coding!"
+    ],
     nextLevel: ""
 }, {
     day: 3,
@@ -43,10 +57,21 @@ export const ADVENT_DAYS = [{
     cssFile: true,
     image: true,
     ready: true,
-    beforeImageText: "",
-    afterImageText: "",
-    beAbleText: "",
-    gettingStarted: "",
+    beforeImageText: "In this project, we're creating a keyboard. I love this project because at first glance it seems easy, but there are some more complicated topics involved.",
+    afterImageText: "You can use as many (or as few) tools, libraries, and frameworks as you'd like. If you're trying to learn something new, this would be a great way to push yourself.",
+    beAbleText: [
+        "See the keyboard centered on the page",
+        "Whenever a user hovers over a specific key it will change colors",
+        "White keys will change to yellow #ffd200",
+        "Black keys will change to pink #f40082"
+    ],
+    gettingStarted: [
+        "To get started, download the files. This includes all the project assets you need to get started: a creative brief, a Figma file with the designs and images.",
+        "Take a look around. Look at the project’s Figma file. If you don’t have a Figma account, don’t worry, you can set one up for free.​",
+        "Open the project’s README.md file. It has additional information on how the project is structured.",
+        "Customize your project / file architecture to your liking.",
+        "Happy coding!"
+    ],
     nextLevel: ""
 }, {
     day: 4,
@@ -55,9 +80,14 @@ export const ADVENT_DAYS = [{
     cssFile: true,
     image: true,
     ready: true,
-    beforeImageText: "",
-    afterImageText: "",
-    beAbleText: "",
+    beforeImageText: "In this project, we're going to create a computer keyboard.",
+    afterImageText: "You can use as many (or as few) tools, libraries, and frameworks as you'd like. If you're trying to learn something new, this would be a great way to push yourself.",
+    beAbleText: [
+        "See the computer keyboard centered on the page",
+        "A random letter will start to jiggle.",
+        "The user should type the same key that's jiggling and it will stop.",
+        "A new, random key will start jiggling"
+    ],
     gettingStarted: "",
     nextLevel: ""
 }, {
