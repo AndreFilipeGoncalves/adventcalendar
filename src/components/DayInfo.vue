@@ -12,7 +12,7 @@
         <img
         v-if="content.image"
         class="challenge-image"
-        :src="`/challenges/day${day}/image.png`" alt="">
+        :src="`/challenges/day${day}/img.png`" alt="">
 
         <!-- After Image Text -->
         <span

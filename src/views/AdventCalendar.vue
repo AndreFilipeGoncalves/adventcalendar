@@ -14,7 +14,7 @@ import { adventDaysSetup } from '@/assets/setups/adventDays'
 import { useRoute } from 'vue-router'
 import { computed, watch } from 'vue'
 
-const route = useRoute()
+const _route = useRoute()
 
 /* return the advent days setup */
 const daysList = computed(() => {
