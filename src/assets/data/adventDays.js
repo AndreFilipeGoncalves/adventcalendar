@@ -96,10 +96,13 @@ export const ADVENT_DAYS = [{
     jsFile: true,
     cssFile: true,
     image: true,
-    ready: false,
-    beforeImageText: "",
+    ready: true,
+    beforeImageText: "In this project, we're going to create a list of Compressed.fm podcasts with custom checkboxes.",
     afterImageText: "",
-    beAbleText: "",
+    beAbleText: [
+        "See the list of podcast episodes",
+        "Check one episode, shift click to select all the episodes in between"
+    ],
     gettingStarted: "",
     nextLevel: ""
 }, {
